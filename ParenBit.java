@@ -6,7 +6,7 @@ public class ParenBit{
         }
 
         if (str.substring(0, 1).equals("(")) {
-            return "("+str.substring(1,str.indexOf(")"))+")";
+            return str.substring(0, str.indexOf(")") + 1);
         }else{
             return "";/*this line have no meaning,
             it just to make sure that here is a return value*/
