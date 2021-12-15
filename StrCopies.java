@@ -10,9 +10,11 @@ public class StrCopies {
         }
 
         if(sub.equals(str.substring(0,sub.length()))){
-            return strCopies(str.substring(sub.length()), sub,n-1);
+            return strCopies(str.substring(1), sub,n-1);
+            //Attention: n-1 is not equal to n--
         }else{
             return strCopies(str.substring(1), sub,n);
         }
     }   
+
 }
