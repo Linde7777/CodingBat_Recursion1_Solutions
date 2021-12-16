@@ -1,8 +1,5 @@
 public class CountHi2 {
-    public static void main(String[] args) {
-        System.out.println(countHi2("xhixhi"));
-    }
-    public static int countHi2(String str) {
+    public int countHi2(String str) {
         if(str.length()<=1){
             return 0;
         }

@@ -1,19 +1,14 @@
 public class NoX {
     
     public String noX(String str) {
-        int ix=str.indexOf("x");
-        if(ix==-1){
+        if(str.length()==0){
             return str;
+        }
+        if(!str.substring(0,1).equals("x")){
+            return str.substring(0,1)+noX(str.substring(1));
         }else{
-
-            if(ix==0){
-                return noX(str.substring(ix+1));
-            }
-            if(ix==str.length()-1){
-                return noX(str.substring(0, str.length()-1));
-            }
-
-            return noX(str.substring(ix-1, ix)+str.substring(ix+1));
+            return noX(str.substring(1));
         }
     }
+
 }
