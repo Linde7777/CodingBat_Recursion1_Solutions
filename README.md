@@ -1,7 +1,6 @@
 # RecursionPractice
 https://codingbat.com/java/Recursion-1  
 
-
 |   |   |   |
 |---|---|---|
 | [factorial](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/Factorial.java)    | [bunnyEars](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/Fibonacci.java)    | [fibonacci](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/Fibonacci.java)   |
@@ -14,4 +13,3 @@ https://codingbat.com/java/Recursion-1
 |  [countAbc](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/CountAbc.java)	  | [count11](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/Count11.java)  |  [stringClean](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/StringClean.java)  |
 |  [countHi2](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/CountHi2.java)  | [parenBit](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/ParenBit.java)	  | [nestParen](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/NextParen.java)   |
 | [strCount](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/StrCount.java)	  | [strCopies](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/StrCopies.java)  |   [strDist](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/StrDist.java) |
-
