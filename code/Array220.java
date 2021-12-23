@@ -1,6 +1,6 @@
 public class Array220 {
     public boolean array220(int[] nums, int index) {
-        if (index==nums.length-1||index == nums.length) {
+        if (index == nums.length - 1 || index == nums.length) {
             return false;
         }
 

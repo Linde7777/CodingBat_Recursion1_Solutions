@@ -1,11 +1,12 @@
 public class CountHi2 {
     public int countHi2(String str) {
-        if(str.length()<=1){
+        if (str.length() <= 1) {
             return 0;
         }
 
         if (str.length() >= 3 && str.substring(0, 3).equals("xhi")) {
             return 0 + countHi2(str.substring(3));
+            //notice that here is substring(3), not substring(1)
         }
 
         if (str.length() >= 2 && str.substring(0, 2).equals("hi")) {
@@ -13,7 +14,7 @@ public class CountHi2 {
         } else {
             return 0 + countHi2(str.substring(1));
         }
-        
+
     }
 
 }
