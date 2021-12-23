@@ -1,15 +1,18 @@
-public class ParenBit{
+public class ParenBit {
 
     public static String parenBit(String str) {
-        if(!str.substring(0,1).equals("(")&&!str.substring(0,1).equals(")")){
+        if (!str.substring(0, 1).equals("(") &&
+            !str.substring(0, 1).equals(")") ) {
             return parenBit(str.substring(1));
         }
 
         if (str.substring(0, 1).equals("(")) {
             return str.substring(0, str.indexOf(")") + 1);
-        }else{
-            return "";/*this line have no meaning,
-            it just to make sure that here is a return value*/
+        } else {
+            return "";/*
+                       * this line have no meaning,
+                       * it just to make sure that here is a return value
+                       */
         }
 
     }
