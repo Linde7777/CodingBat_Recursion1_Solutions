@@ -11,7 +11,7 @@ public class AllStar {
 
         /**
          * We can't pass the index,
-         * but the length of the str can be pass along with str,
+         * but the length of the str can be passed along with str,
          * which can be used as index
          */
     }
