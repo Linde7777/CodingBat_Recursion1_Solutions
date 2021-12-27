@@ -5,7 +5,7 @@ https://codingbat.com/java/Recursion-1
 If you have any suggestions or questions about my code, please feel free to contact me:)
 
 When you come into String, notice that: 
-1. The result of `"hello".subString(0,2)` is `"he"`, not `"hel"`  
+1. The result of `"hello".substring(0,2)` is `"he"`, not `"hel"`  
 2. If you want to judge whether two Strings are equal, you should use `str1.equal(str2)`, not `==`
 
 | [factorial](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/Factorial.java)  |[bunnyEars](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/BunnyEars.java)      |   [fibonacci](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/Fibonacci.java)  |
