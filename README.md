@@ -4,9 +4,7 @@ https://codingbat.com/java/Recursion-1
 
 If you have any suggestions or questions about my code, please feel free to contact me:)
 
-When you come into String, notice that: 
-1. The result of `"hello".substring(0,2)` is `"he"`, not `"hel"`  
-2. If you want to judge whether two Strings are equal, you should use `str1.equal(str2)`, not `==`
+
 
 | [factorial](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/Factorial.java)  |[bunnyEars](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/BunnyEars.java)      |   [fibonacci](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/Fibonacci.java)  |
 |---|---|---|
@@ -19,3 +17,7 @@ When you come into String, notice that:
 |  [countAbc](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/CountAbc.java)	  | [count11](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/Count11.java)  |  [stringClean](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/StringClean.java)  |
 |  [countHi2](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/CountHi2.java)  | [parenBit](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/ParenBit.java)	  | [nestParen](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/NextParen.java)   |
 | [strCount](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/StrCount.java)	  | [strCopies](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/StrCopies.java)  |   [strDist](https://github.com/MuSk7777/RecursionPractice-1/blob/master/code/StrDist.java) |
+
+When you come into String, notice that: 
+1. The result of `"hello".substring(0,2)` is `"he"`, not `"hel"`  
+2. If you want to judge whether two Strings are equal, you should use `str1.equal(str2)`, not `==`
